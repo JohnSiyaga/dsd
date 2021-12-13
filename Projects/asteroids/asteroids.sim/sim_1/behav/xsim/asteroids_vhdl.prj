@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../asteroids.srcs/sources_1/new/adc_if.vhd" \
+"../../../../asteroids.srcs/sources_1/new/clk_wiz_0.vhd" \
+"../../../../asteroids.srcs/sources_1/new/clk_wiz_0_clk_wiz.vhd" \
+"../../../../asteroids.srcs/sources_1/new/leddec16.vhd" \
+"../../../../asteroids.srcs/sources_1/new/vga_sync.vhd" \
+"../../../../asteroids.srcs/sources_1/new/asteroids.vhd" \
+
+# Do not sort compile order
+nosort

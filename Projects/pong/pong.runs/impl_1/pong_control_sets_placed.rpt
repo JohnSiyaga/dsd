@@ -1,0 +1,94 @@
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Mon Nov 29 12:52:33 2021
+| Host         : Johns-Laptop running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file pong_control_sets_placed.rpt
+| Design       : pong
+| Device       : xc7a100t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    16 |
+|    Minimum number of control sets                        |    16 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    70 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    16 |
+| >= 0 to < 4        |     2 |
+| >= 4 to < 6        |     1 |
+| >= 6 to < 8        |     4 |
+| >= 8 to < 10       |     2 |
+| >= 10 to < 12      |     4 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     3 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              51 |           22 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              34 |           13 |
+| Yes          | No                    | No                     |              40 |           13 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              37 |           10 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-----------------------------+----------------------------------+-------------------------------+------------------+----------------+--------------+
+|         Clock Signal        |           Enable Signal          |        Set/Reset Signal       | Slice Load Count | Bel Load Count | Bels / Slice |
++-----------------------------+----------------------------------+-------------------------------+------------------+----------------+--------------+
+|  clk_wiz_0_inst/U0/clk_out1 |                                  | vga_driver/hsync0             |                1 |              1 |         1.00 |
+|  clk_wiz_0_inst/U0/clk_out1 | vga_driver/eqOp                  |                               |                1 |              1 |         1.00 |
+|  VGA_vsync_OBUF_BUFG        |                                  | add_bb/ball_y0                |                2 |              5 |         2.50 |
+|  VGA_vsync_OBUF_BUFG        |                                  | add_bb/ball_y[10]_i_1_n_0     |                3 |              6 |         2.00 |
+|  VGA_vsync_OBUF_BUFG        | add_bb/ball_y_motion[10]_i_1_n_0 |                               |                2 |              6 |         3.00 |
+|  VGA_vsync_OBUF_BUFG        |                                  |                               |                6 |              7 |         1.17 |
+|  VGA_vsync_OBUF_BUFG        | add_bb/ball_x_motion[10]_i_1_n_0 |                               |                4 |              7 |         1.75 |
+|  clk_wiz_0_inst/U0/clk_out1 | vga_driver/eqOp                  | vga_driver/v_cnt0             |                3 |              9 |         3.00 |
+|  ADC_CS_OBUF                |                                  |                               |                3 |              9 |         3.00 |
+|  clk_in_IBUF_BUFG           |                                  |                               |                3 |             10 |         3.33 |
+|  clk_wiz_0_inst/U0/clk_out1 |                                  | vga_driver/clear              |                4 |             11 |         2.75 |
+|  VGA_vsync_OBUF_BUFG        |                                  | add_bb/ball_x_reg[10]_i_1_n_4 |                3 |             11 |         3.67 |
+|  count_reg[4]               | adc/pdata2[11]_i_1_n_0           |                               |                3 |             11 |         3.67 |
+|  VGA_vsync_OBUF_BUFG        | add_bb/ball_y_motion1            |                               |                3 |             16 |         5.33 |
+|  clk_wiz_0_inst/U0/clk_out1 |                                  |                               |               10 |             25 |         2.50 |
+|  VGA_vsync_OBUF_BUFG        | add_bb/ball_y_motion1            | add_bb/hitcount               |                7 |             28 |         4.00 |
++-----------------------------+----------------------------------+-------------------------------+------------------+----------------+--------------+
+
+

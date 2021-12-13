@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1639408292">
+  <File Type="ROUTE-PWR" Name="asteroids_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="asteroids.tcl"/>
+  <File Type="BITSTR-MMI" Name="asteroids.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="asteroids_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="asteroids_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="asteroids_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="asteroids_reports.tcl"/>
+  <File Type="OPT-TIMING" Name="asteroids_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="asteroids_opt.dcp"/>
+  <File Type="OPT-DRC" Name="asteroids_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="asteroids.hwdef"/>
+  <File Type="PWROPT-DCP" Name="asteroids_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="asteroids_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="asteroids_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="asteroids_placed.dcp"/>
+  <File Type="PLACE-IO" Name="asteroids_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="asteroids_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="asteroids_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="asteroids_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="asteroids_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="asteroids_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="asteroids_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="asteroids.bin"/>
+  <File Type="PLACE-TIMING" Name="asteroids_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="asteroids_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="asteroids.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="asteroids_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="asteroids_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="asteroids_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="asteroids.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="asteroids_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="asteroids_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="asteroids_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="asteroids_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="asteroids_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="asteroids_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="asteroids_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="asteroids_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="asteroids_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="asteroids_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="asteroids_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="asteroids_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="asteroids_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="asteroids_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="asteroids_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="asteroids_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="asteroids_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="asteroids_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="asteroids_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="asteroids_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="asteroids_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="asteroids_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="asteroids_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="asteroids_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="asteroids_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="asteroids_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="asteroids_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="asteroids.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="asteroids_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="asteroids_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="asteroids.nky"/>
+  <File Type="BITSTR-BMM" Name="asteroids_bd.bmm"/>
+  <File Type="PDI-FILE" Name="asteroids.pdi"/>
+  <File Type="RCFI_FILE" Name="asteroids.rcfi"/>
+  <File Type="CFI_FILE" Name="asteroids.cfi"/>
+  <File Type="RNPI_FILE" Name="asteroids.rnpi"/>
+  <File Type="NPI_FILE" Name="asteroids.npi"/>
+  <File Type="RBD_FILE" Name="asteroids.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="asteroids.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="asteroids.sysdef"/>
+  <File Type="BG-BGN" Name="asteroids.bgn"/>
+  <File Type="BG-DRC" Name="asteroids.drc"/>
+  <File Type="RDI-RDI" Name="asteroids.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/adc_if.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/clk_wiz_0.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/clk_wiz_0_clk_wiz.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/leddec16.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/ship_n_asteroids.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/vga_sync.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/asteroids.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="asteroids"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/asteroids.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/asteroids.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2021"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
